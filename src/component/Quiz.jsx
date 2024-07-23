@@ -4,39 +4,39 @@ import './Quiz.css'
 
 const questions = [
   {
-    questionText: 'What is the capital of France?',
+    questionText: 'who is caption of straw hat?',
     answerOptions: [
-      { answerText: 'Berlin', isCorrect: false },
-      { answerText: 'Madrid', isCorrect: false },
-      { answerText: 'Paris', isCorrect: true },
-      { answerText: 'Lisbon', isCorrect: false },
+      { answerText: 'Zoro', isCorrect: false },
+      { answerText: 'Sanji', isCorrect: false },
+      { answerText: 'Luffy', isCorrect: true },
+      { answerText: 'Brook', isCorrect: false },
     ],
   },
   {
-    questionText: 'Who is CEO of Tesla?',
+    questionText: 'Who is the father of moder computer ?',
     answerOptions: [
-      { answerText: 'Jeff Bezos', isCorrect: false },
-      { answerText: 'Elon Musk', isCorrect: true },
+      { answerText: 'Charles Babbage', isCorrect: false },
+      { answerText: 'Alen turing', isCorrect: true },
       { answerText: 'Bill Gates', isCorrect: false },
       { answerText: 'Tony Stark', isCorrect: false },
     ],
   },
   {
-    questionText: 'The iPhone was created by which company?',
+    questionText: 'what is command to create folder in linux?',
     answerOptions: [
-      { answerText: 'Apple', isCorrect: true },
-      { answerText: 'Intel', isCorrect: false },
-      { answerText: 'Amazon', isCorrect: false },
-      { answerText: 'Microsoft', isCorrect: false },
+      { answerText: 'mkdir', isCorrect: true },
+      { answerText: 'rmdir', isCorrect: false },
+      { answerText: 'makedir', isCorrect: false },
+      { answerText: 'catdir', isCorrect: false },
     ],
   },
   {
-    questionText: 'How many Harry Potter books are there?',
+    questionText: 'which is the national bird of japan?',
     answerOptions: [
-      { answerText: '1', isCorrect: false },
-      { answerText: '4', isCorrect: false },
-      { answerText: '6', isCorrect: false },
-      { answerText: '7', isCorrect: true },
+      { answerText: 'Cat', isCorrect: false },
+      { answerText: 'Dove', isCorrect: false },
+      { answerText: 'Crow', isCorrect: false },
+      { answerText: 'penguin', isCorrect: true },
     ],
   },
 ];
